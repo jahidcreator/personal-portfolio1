@@ -21,5 +21,20 @@ body{
 }
 section{
     height: 500px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
+}
+.one-third{
+    width: 30%;
+    float: left;
+   padding-left:2%;
+}
+.one-third img{
+    width: 50%;
+    align-items: center;
+}
+.latest-work{
+    text-align: center;
+    background-color: brown;
+    padding: 10px;
+    color: white;
 }
