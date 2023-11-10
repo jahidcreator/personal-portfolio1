@@ -12,7 +12,7 @@ body{
 .hire-me{
     text-decoration: none;
     background-color: salmon;
-    padding: 10px 10px;
+    padding: 15px 15px;
     border-radius: 10px;
     
 }
@@ -21,12 +21,13 @@ body{
 }
 section{
     height: 500px;
-    padding-bottom: 30px;
+   
 }
 .one-third{
     width: 30%;
     float: left;
    padding-left:2%;
+   box-shadow: 10px 10px 40px white;
 }
 .one-third img{
     width: 50%;
@@ -34,7 +35,46 @@ section{
 }
 .latest-work{
     text-align: center;
-    background-color: brown;
-    padding: 10px;
-    color: white;
+    font-size: 30px;
+    padding-top: 65px;
+    
+
+}
+.latest-project{
+    box-shadow: 10px 10px 40px rgb(182, 152, 152);
+    background-color: white;
+   
+}
+.latest-work-highlight{
+    color: tomato;
+}
+.single-experince{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+..single-experince img{
+    align-items: center;
+}
+.hire-me img{
+    width: 6%;
+    vertical-align: middle;
+     margin-right: 5px;
+}
+.work-inquary{
+    background-color: green;
+    padding: 30px;
+    font-size: 50px;
+    border-radius: 15px;
+    margin: 40px 40px;
+}
+.hire-me-2{
+    text-decoration: none;
+    background-color: salmon;
+    padding: 15px 15px;
+    border-radius: 10px;
+    float: right;
+    text-align: center;
 }
